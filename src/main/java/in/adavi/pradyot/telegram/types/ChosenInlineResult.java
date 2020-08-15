@@ -10,13 +10,13 @@ import lombok.Data;
 @Data
 public class ChosenInlineResult {
 
-  private String resultId;
+	private String resultId;
 
-  private User from;
+	private User from;
 
-  private Location location;
+	private Location location;
 
-  private String inlineMessageId;
+	private String inlineMessageId;
 
-  private String query;
+	private String query;
 }

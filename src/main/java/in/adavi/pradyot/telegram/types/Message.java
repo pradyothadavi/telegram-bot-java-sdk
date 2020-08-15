@@ -12,101 +12,101 @@ import java.util.List;
 @Data
 public class Message {
 
-  private Integer messageId;
+	private Integer messageId;
 
-  private User from;
+	private User from;
 
-  private Integer date;
+	private Integer date;
 
-  private Chat chat;
+	private Chat chat;
 
-  private User forwardFrom;
+	private User forwardFrom;
 
-  private Chat forwardFromChat;
+	private Chat forwardFromChat;
 
-  private Integer forwardFromMessageId;
+	private Integer forwardFromMessageId;
 
-  private String forwardSignature;
+	private String forwardSignature;
 
-  private String forwardSenderName;
+	private String forwardSenderName;
 
-  private Integer forwardDate;
+	private Integer forwardDate;
 
-  private Message replyToMessage;
+	private Message replyToMessage;
 
-  private User viaBot;
+	private User viaBot;
 
-  private Integer editDate;
+	private Integer editDate;
 
-  private String mediaGroupId;
+	private String mediaGroupId;
 
-  private String authorSignature;
+	private String authorSignature;
 
-  private String text;
+	private String text;
 
-  private List<MessageEntity> entities;
+	private List<MessageEntity> entities;
 
-  private Animation animation;
+	private Animation animation;
 
-  private Audio audio;
+	private Audio audio;
 
-  private Document document;
+	private Document document;
 
-  private List<PhotoSize> photo;
+	private List<PhotoSize> photo;
 
-  private Sticker sticker;
+	private Sticker sticker;
 
-  private Video video;
+	private Video video;
 
-  private VideoNote videoNote;
+	private VideoNote videoNote;
 
-  private Voice voice;
+	private Voice voice;
 
-  private String caption;
+	private String caption;
 
-  private List<MessageEntity> captionEntities;
+	private List<MessageEntity> captionEntities;
 
-  private Contact contact;
+	private Contact contact;
 
-  private Dice dice;
+	private Dice dice;
 
-  private Game game;
+	private Game game;
 
-  private Poll poll;
+	private Poll poll;
 
-  private Venue venue;
+	private Venue venue;
 
-  private Location location;
+	private Location location;
 
-  private List<User> newChatMembers;
+	private List<User> newChatMembers;
 
-  private User leftChatMember;
+	private User leftChatMember;
 
-  private String newChatTitle;
+	private String newChatTitle;
 
-  private List<PhotoSize> newChatPhoto;
+	private List<PhotoSize> newChatPhoto;
 
-  private Boolean deleteChatPhoto;
+	private Boolean deleteChatPhoto;
 
-  private Boolean groupChatCreated;
+	private Boolean groupChatCreated;
 
-  private Boolean supergroupChatCreated;
+	private Boolean supergroupChatCreated;
 
-  private Boolean channelChatCreated;
+	private Boolean channelChatCreated;
 
-  private Integer migrateToChatId;
+	private Integer migrateToChatId;
 
-  private Integer migrateFromChatId;
+	private Integer migrateFromChatId;
 
-  private Message pinnedMessage;
+	private Message pinnedMessage;
 
-  private Invoice invoice;
+	private Invoice invoice;
 
-  private SuccessfulPayment successfulPayment;
+	private SuccessfulPayment successfulPayment;
 
-  private String connectedWebsite;
+	private String connectedWebsite;
 
-  private PassportData passportData;
+	private PassportData passportData;
 
-  private InlineKeyboardMarkup replyMarkup;
+	private InlineKeyboardMarkup replyMarkup;
 }

@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class Dice {
 
-  private String emoji;
+	private String emoji;
 
-  private Integer value;
+	private Integer value;
 }

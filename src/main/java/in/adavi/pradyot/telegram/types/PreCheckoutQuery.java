@@ -10,17 +10,17 @@ import lombok.Data;
 @Data
 public class PreCheckoutQuery {
 
-  private String id;
+	private String id;
 
-  private User from;
+	private User from;
 
-  private String currency;
+	private String currency;
 
-  private Integer totalAmount;
+	private Integer totalAmount;
 
-  private String invoicePayload;
+	private String invoicePayload;
 
-  private String shippingOptionId;
+	private String shippingOptionId;
 
-  private OrderInfo orderInfo;
+	private OrderInfo orderInfo;
 }

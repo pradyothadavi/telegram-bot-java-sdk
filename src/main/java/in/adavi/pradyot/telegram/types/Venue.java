@@ -10,13 +10,13 @@ import lombok.Data;
 @Data
 public class Venue {
 
-  private Location location;
+	private Location location;
 
-  private String title;
+	private String title;
 
-  private String address;
+	private String address;
 
-  private String foursquareId;
+	private String foursquareId;
 
-  private String foursquareType;
+	private String foursquareType;
 }

@@ -10,13 +10,13 @@ import lombok.Data;
 @Data
 public class Voice {
 
-  private String fileId;
+	private String fileId;
 
-  private String fileUniqueId;
+	private String fileUniqueId;
 
-  private Integer duration;
+	private Integer duration;
 
-  private String mimeType;
+	private String mimeType;
 
-  private Integer fileSize;
+	private Integer fileSize;
 }

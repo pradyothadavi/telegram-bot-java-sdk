@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class PollOption {
 
-  private String text;
+	private String text;
 
-  private Integer voterCount;
+	private Integer voterCount;
 }

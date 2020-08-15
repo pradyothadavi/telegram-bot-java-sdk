@@ -12,21 +12,21 @@ import java.io.Serializable;
 @Data
 public class User {
 
-  private String id;
+	private String id;
 
-  private Boolean isBot;
+	private Boolean isBot;
 
-  private String firstName;
+	private String firstName;
 
-  private String lastName;
+	private String lastName;
 
-  private String username;
+	private String username;
 
-  private String languageCode;
+	private String languageCode;
 
-  private Boolean canJoinGroups;
+	private Boolean canJoinGroups;
 
-  private Boolean canReadAllGroupMessages;
+	private Boolean canReadAllGroupMessages;
 
-  private Boolean supportsInlineQueries;
+	private Boolean supportsInlineQueries;
 }

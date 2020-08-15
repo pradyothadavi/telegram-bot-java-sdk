@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 public class UserProfilePhotos {
 
-  private Integer totalCount;
+	private Integer totalCount;
 
-  private List<PhotoSize> photos;
+	private List<PhotoSize> photos;
 }

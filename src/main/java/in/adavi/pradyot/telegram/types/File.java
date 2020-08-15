@@ -10,11 +10,11 @@ import lombok.Data;
 @Data
 public class File {
 
-  private String fileId;
+	private String fileId;
 
-  private String fileUniqueId;
+	private String fileUniqueId;
 
-  private Integer fileSize;
+	private Integer fileSize;
 
-  private String filePath;
+	private String filePath;
 }

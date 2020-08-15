@@ -12,9 +12,9 @@ import java.util.List;
 @Data
 public class PollAnswer {
 
-  private String pollId;
+	private String pollId;
 
-  private User user;
+	private User user;
 
-  private List<Integer> optionIds;
+	private List<Integer> optionIds;
 }

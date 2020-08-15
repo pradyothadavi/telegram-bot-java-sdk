@@ -10,13 +10,13 @@ import lombok.Data;
 @Data
 public class InlineQuery {
 
-  private String id;
+	private String id;
 
-  private User from;
+	private User from;
 
-  private Location location;
+	private Location location;
 
-  private String query;
+	private String query;
 
-  private String offset;
+	private String offset;
 }

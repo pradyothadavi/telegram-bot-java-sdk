@@ -12,29 +12,29 @@ import java.util.List;
 @Data
 public class Poll {
 
-  private String id;
+	private String id;
 
-  private String question;
+	private String question;
 
-  private List<PollOption> options;
+	private List<PollOption> options;
 
-  private Integer totalVoterCount;
+	private Integer totalVoterCount;
 
-  private Boolean isClosed;
+	private Boolean isClosed;
 
-  private Boolean isAnonymous;
+	private Boolean isAnonymous;
 
-  private String type;
+	private String type;
 
-  private Boolean allowsMultipleAnswers;
+	private Boolean allowsMultipleAnswers;
 
-  private Integer correctOptionId;
+	private Integer correctOptionId;
 
-  private String explanation;
+	private String explanation;
 
-  private List<MessageEntity> explanationEntities;
+	private List<MessageEntity> explanationEntities;
 
-  private Integer openPeriod;
+	private Integer openPeriod;
 
-  private Integer closeDate;
+	private Integer closeDate;
 }

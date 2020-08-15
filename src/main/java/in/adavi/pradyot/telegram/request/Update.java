@@ -11,27 +11,27 @@ import lombok.Data;
 @Data
 public class Update {
 
-  private Integer updateId;
+	private Integer updateId;
 
-  private Message message;
+	private Message message;
 
-  private Message editedMessage;
+	private Message editedMessage;
 
-  private Message channelPost;
+	private Message channelPost;
 
-  private Message editedChannelPost;
+	private Message editedChannelPost;
 
-  private InlineQuery inlineQuery;
+	private InlineQuery inlineQuery;
 
-  private ChosenInlineResult chosenInlineResult;
+	private ChosenInlineResult chosenInlineResult;
 
-  private CallbackQuery callbackQuery;
+	private CallbackQuery callbackQuery;
 
-  private ShippingQuery shippingQuery;
+	private ShippingQuery shippingQuery;
 
-  private PreCheckoutQuery preCheckoutQuery;
+	private PreCheckoutQuery preCheckoutQuery;
 
-  private Poll poll;
+	private Poll poll;
 
-  private PollAnswer pollAnswer;
+	private PollAnswer pollAnswer;
 }

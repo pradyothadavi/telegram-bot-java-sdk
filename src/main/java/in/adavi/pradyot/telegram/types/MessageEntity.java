@@ -10,16 +10,16 @@ import lombok.Data;
 @Data
 public class MessageEntity {
 
-  private String type;
+	private String type;
 
-  private Integer offset;
+	private Integer offset;
 
-  private Integer length;
+	private Integer length;
 
-  private String url;
+	private String url;
 
-  private User user;
+	private User user;
 
-  private String language;
+	private String language;
 
 }

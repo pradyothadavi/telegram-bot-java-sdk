@@ -10,31 +10,31 @@ import lombok.Data;
 @Data
 public class Chat {
 
-  private String id;
+	private String id;
 
-  private String type;
+	private String type;
 
-  private String title;
+	private String title;
 
-  private String username;
+	private String username;
 
-  private String firstName;
+	private String firstName;
 
-  private String lastName;
+	private String lastName;
 
-  private ChatPhoto photo;
+	private ChatPhoto photo;
 
-  private String description;
+	private String description;
 
-  private String inviteLink;
+	private String inviteLink;
 
-  private Message pinnedMessage;
+	private Message pinnedMessage;
 
-  private ChatPermissions permissions;
+	private ChatPermissions permissions;
 
-  private Integer slowModeDelay;
+	private Integer slowModeDelay;
 
-  private String stickerSetName;
+	private String stickerSetName;
 
-  private Boolean canSetStickerSet;
+	private Boolean canSetStickerSet;
 }

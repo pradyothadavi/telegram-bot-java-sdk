@@ -10,16 +10,16 @@ import lombok.Data;
 @Data
 public class Document {
 
-  private String fileId;
+	private String fileId;
 
-  private String fileUniqueId;
+	private String fileUniqueId;
 
-  private PhotoSize thumb;
+	private PhotoSize thumb;
 
-  private String fileName;
+	private String fileName;
 
-  private String mimeType;
+	private String mimeType;
 
-  private Integer fileSize;
+	private Integer fileSize;
 
 }

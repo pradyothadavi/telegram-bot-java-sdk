@@ -12,11 +12,11 @@ import java.io.IOException;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TelegramBot {
-  
-  private TelegramBotConfig telegramBotConfig;
-  
-  public Update getUpdate(String updateStr) throws IOException {
-    Update update = new ObjectMapper().readValue(updateStr,Update.class);
-    return update;
-  }
+
+	private TelegramBotConfig telegramBotConfig;
+
+	public Update getUpdate(String updateStr) throws IOException {
+		Update update = new ObjectMapper().readValue(updateStr, Update.class);
+		return update;
+	}
 }

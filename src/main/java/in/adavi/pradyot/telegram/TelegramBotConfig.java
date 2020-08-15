@@ -6,7 +6,6 @@ import lombok.Data;
 @Data
 @Builder
 public class TelegramBotConfig {
-  
   private final String botToken;
-  
+  private final String webHookToken;
 }

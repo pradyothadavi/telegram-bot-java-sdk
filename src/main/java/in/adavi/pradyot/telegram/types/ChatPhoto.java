@@ -10,11 +10,11 @@ import lombok.Data;
 @Data
 public class ChatPhoto {
 
-  private String smallFileId;
+	private String smallFileId;
 
-  private String smallFileUniqueId;
+	private String smallFileUniqueId;
 
-  private String bigFileId;
+	private String bigFileId;
 
-  private String bigFileUniqueId;
+	private String bigFileUniqueId;
 }

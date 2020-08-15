@@ -10,11 +10,11 @@ import lombok.Data;
 @Data
 public class ShippingQuery {
 
-  private String id;
+	private String id;
 
-  private User from;
+	private User from;
 
-  private String invoicePayload;
+	private String invoicePayload;
 
-  private ShippingAddress shippingAddress;
+	private ShippingAddress shippingAddress;
 }

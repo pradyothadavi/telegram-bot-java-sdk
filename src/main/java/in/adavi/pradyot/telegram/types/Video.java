@@ -10,19 +10,19 @@ import lombok.Data;
 @Data
 public class Video {
 
-  private String fileId;
+	private String fileId;
 
-  private String fileUniqueId;
+	private String fileUniqueId;
 
-  private Integer width;
+	private Integer width;
 
-  private Integer height;
+	private Integer height;
 
-  private Integer duration;
+	private Integer duration;
 
-  private PhotoSize thumb;
+	private PhotoSize thumb;
 
-  private String mimeType;
+	private String mimeType;
 
-  private Integer fileSize;
+	private Integer fileSize;
 }

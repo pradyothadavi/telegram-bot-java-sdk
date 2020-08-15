@@ -10,19 +10,19 @@ import lombok.Data;
 @Data
 public class Audio {
 
-  private String fileId;
+	private String fileId;
 
-  private String fileUniqueId;
+	private String fileUniqueId;
 
-  private Integer duration;
+	private Integer duration;
 
-  private String performer;
+	private String performer;
 
-  private String title;
+	private String title;
 
-  private String mimeType;
+	private String mimeType;
 
-  private Integer fileSize;
+	private Integer fileSize;
 
-  private PhotoSize thumb;
+	private PhotoSize thumb;
 }
