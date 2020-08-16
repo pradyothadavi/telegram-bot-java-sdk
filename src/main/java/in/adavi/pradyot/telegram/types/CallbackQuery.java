@@ -5,22 +5,25 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+/**
+ * https://core.telegram.org/bots/api#callbackquery
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class CallbackQuery {
 
-	private String id;
+  private String id;
 
-	private User from;
+  private User from;
 
-	private Message message;
+  private Message message;
 
-	private String inlineMessageId;
+  private String inlineMessageId;
 
-	private String chatInstance;
+  private String chatInstance;
 
-	private String data;
+  private String data;
 
-	private String gameShotName;
+  private String gameShotName;
 }

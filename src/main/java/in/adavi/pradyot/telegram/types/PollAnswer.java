@@ -7,14 +7,17 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * https://core.telegram.org/bots/api#pollanswer
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class PollAnswer {
 
-	private String pollId;
+  private String pollId;
 
-	private User user;
+  private User user;
 
-	private List<Integer> optionIds;
+  private List<Integer> optionIds;
 }

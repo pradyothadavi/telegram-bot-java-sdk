@@ -5,21 +5,24 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+/**
+ * https://core.telegram.org/bots/api#document
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class Document {
 
-	private String fileId;
+  private String fileId;
 
-	private String fileUniqueId;
+  private String fileUniqueId;
 
-	private PhotoSize thumb;
+  private PhotoSize thumb;
 
-	private String fileName;
+  private String fileName;
 
-	private String mimeType;
+  private String mimeType;
 
-	private Integer fileSize;
+  private Integer fileSize;
 
 }
