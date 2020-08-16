@@ -5,18 +5,21 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+/**
+ * https://core.telegram.org/bots/api#venue
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class Venue {
 
-	private Location location;
+  private Location location;
 
-	private String title;
+  private String title;
 
-	private String address;
+  private String address;
 
-	private String foursquareId;
+  private String foursquareId;
 
-	private String foursquareType;
+  private String foursquareType;
 }

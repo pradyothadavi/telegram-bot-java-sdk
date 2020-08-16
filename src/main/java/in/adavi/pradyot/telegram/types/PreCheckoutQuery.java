@@ -3,6 +3,7 @@ package in.adavi.pradyot.telegram.types;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import in.adavi.pradyot.telegram.payments.OrderInfo;
 import lombok.Data;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -10,17 +11,17 @@ import lombok.Data;
 @Data
 public class PreCheckoutQuery {
 
-	private String id;
+  private String id;
 
-	private User from;
+  private User from;
 
-	private String currency;
+  private String currency;
 
-	private Integer totalAmount;
+  private Integer totalAmount;
 
-	private String invoicePayload;
+  private String invoicePayload;
 
-	private String shippingOptionId;
+  private String shippingOptionId;
 
-	private OrderInfo orderInfo;
+  private OrderInfo orderInfo;
 }

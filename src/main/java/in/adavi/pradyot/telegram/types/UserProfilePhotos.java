@@ -7,12 +7,15 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * https://core.telegram.org/bots/api#userprofilephotos
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class UserProfilePhotos {
 
-	private Integer totalCount;
+  private Integer totalCount;
 
-	private List<PhotoSize> photos;
+  private List<PhotoSize> photos;
 }

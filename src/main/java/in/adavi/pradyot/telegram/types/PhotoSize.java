@@ -5,18 +5,21 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+/**
+ * https://core.telegram.org/bots/api#photosize
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class PhotoSize {
 
-	private String fileId;
+  private String fileId;
 
-	private String fileUniqueId;
+  private String fileUniqueId;
 
-	private Integer width;
+  private Integer width;
 
-	private Integer height;
+  private Integer height;
 
-	private Integer fileSize;
+  private Integer fileSize;
 }

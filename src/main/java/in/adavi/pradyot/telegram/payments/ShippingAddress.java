@@ -1,4 +1,4 @@
-package in.adavi.pradyot.telegram.types;
+package in.adavi.pradyot.telegram.payments;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;

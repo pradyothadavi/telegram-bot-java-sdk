@@ -5,24 +5,27 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+/**
+ * https://core.telegram.org/bots/api#audio
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class Audio {
 
-	private String fileId;
+  private String fileId;
 
-	private String fileUniqueId;
+  private String fileUniqueId;
 
-	private Integer duration;
+  private Integer duration;
 
-	private String performer;
+  private String performer;
 
-	private String title;
+  private String title;
 
-	private String mimeType;
+  private String mimeType;
 
-	private Integer fileSize;
+  private Integer fileSize;
 
-	private PhotoSize thumb;
+  private PhotoSize thumb;
 }

@@ -1,11 +1,12 @@
 package in.adavi.pradyot.telegram;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@Builder
 public class TelegramBotConfig {
-  private final String botToken;
-  private final String webHookToken;
+  private String botToken;
+  private String webHookToken;
 }

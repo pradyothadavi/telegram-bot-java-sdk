@@ -5,24 +5,27 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+/**
+ * https://core.telegram.org/bots/api#chatpermissions
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class ChatPermissions {
 
-	private Boolean canSendMessages;
+  private Boolean canSendMessages;
 
-	private Boolean canSendMediaMessages;
+  private Boolean canSendMediaMessages;
 
-	private Boolean canSendPolls;
+  private Boolean canSendPolls;
 
-	private Boolean canSendOtherMessages;
+  private Boolean canSendOtherMessages;
 
-	private Boolean canAddWebPagePreviews;
+  private Boolean canAddWebPagePreviews;
 
-	private Boolean canChangeInfo;
+  private Boolean canChangeInfo;
 
-	private Boolean canInviteUsers;
+  private Boolean canInviteUsers;
 
-	private Boolean canPinMessages;
+  private Boolean canPinMessages;
 }
